@@ -1,3 +1,5 @@
+RenameIt.py
+
 Created to rename a bunch of files from a previous backup.
 These file all had the same UTC date appended to the end of the file name.
 
@@ -8,3 +10,13 @@ This tool asks you three things:
 
 If a file has the same name, _* is added.
   File001.bin will become File001_1.bin while the orginal File001.bin remains the same.
+
+DeleteIt.py
+
+1. Choose a Directory (recursive search)
+2. Choose what to delete based on file name text entered
+
+
+ChangeIt.py
+
+two in one
