@@ -1,22 +1,28 @@
-RenameIt.py
+# RenameIt.py
 
-Created to rename a bunch of files from a previous backup.
-These file all had the same UTC date appended to the end of the file name.
+**Purpose:** This script is created to rename a bunch of files from a previous backup. These files all had the same UTC date appended to the end of their names.
 
-This tool asks you three things:
-1. What directory to look in (changes are applied recursively).
-2. What text you want to rename.
-3. What do you want the text to be replaced with.
+**Functionality:**
+- Asks for the directory to search in (applies changes recursively).
+- Prompts for the text you want to rename.
+- Requests the new text to replace the old text.
 
-If a file has the same name, _* is added.
-  File001.bin will become File001_1.bin while the orginal File001.bin remains the same.
+**Features:**
+- If a file with the new name already exists, `_` followed by a number is appended to the new file name.
+  - For example, `File001.bin` will become `File001_1.bin` while the original `File001.bin` remains unchanged.
 
-DeleteIt.py
+---
 
-1. Choose a Directory (recursive search)
-2. Choose what to delete based on file name text entered
+# DeleteIt.py
 
+**Usage:**
+1. **Choose a Directory**: The script searches the directory recursively.
+2. **Text-Based Deletion**: Deletes files based on the file name text entered by the user.
 
-ChangeIt.py
+---
 
-two in one
+# ChangeIt.py
+
+**Overview:**
+- A two-in-one tool that combines the functionalities of `RenameIt.py` and `DeleteIt.py`.
+- Allows users to choose between renaming and deleting files in a specified directory.
